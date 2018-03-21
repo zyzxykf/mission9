@@ -1,0 +1,11 @@
+.table .news-tbody>tr>td {
+	max-width: 168px;
+	min-width: 90px;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.table .news-tbody>tr>td:nth-child(1) {
+	max-width: 35px!important;
+}
